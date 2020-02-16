@@ -1,8 +1,19 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
-	font: normal 16px Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #333;
-	background: black;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-size: 16px;
+	background-color: black;
+}
+
+h3 {
+	text-transform: uppercase;
 }
 
 #particles-js{
@@ -13,7 +24,7 @@ body {
 	opacity: 0;
 }
 
-.text {
+.subtitle {
 	opacity: 0;
 }
 
@@ -30,7 +41,7 @@ body {
     height: 100px;
 	margin: auto;
 	-webkit-font-smoothing: antialiased;
-	font-size: 26pt;
+	font-size: 2rem;
 	line-height: 42pt;
 	letter-spacing: 1px;
 	font-family: 'Roboto Mono', monospace;
@@ -40,19 +51,28 @@ body {
 	color: #007acc;
 }
 
-.page-link {
-	margin: 26px auto;
-	font-size: 20px;
+.text-secondary {
+	border-bottom: 3px solid #0F0F14;
+}
+
+#portfolioBtn {
+	padding: 0px 10px 0px 10px;
+	margin: 26px 0px 0px 0px;
+	font-size: 1.2rem;
 	font-family: 'Roboto Mono', monospace;
 	background: rgba(0,0,0,0);
 	color: #fff;
 	opacity: 0;
 }
 
-.page-link:hover {
+#portfolioBtn:hover {
 	color: #fff;
-	background: rgba(0,122,204,0.4);
+	background-color: rgba(0,122,204,0.4);
+	border-color: rgba(0,122,204,0.4);
+	text-decoration: none;
+	transition: background-color .25s ease-out;
 }
+
 
 .typewriter {
 	margin: 0 auto;
@@ -88,3 +108,29 @@ body {
 	opacity: 0;
 	animation: fadeIn .5s ease-in 1 forwards;
   }
+
+.nav-item {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.page-footer {
+	color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+	.greeting {
+	  font-size: 16pt;
+	}  
+
+	#portfolioBtn {
+		padding: 10px 5px 10px 5px;
+		margin: 10px 0px 0px 0px;
+		font-size: 12pt;
+		line-height: 14pt;
+	}
+}

@@ -13,76 +13,144 @@
 <body>
   <div id="particles-js"></div>
     <div class="container greeting">
-      <div class="typewriter">Hello, I'm <span class="highlight">Rolando Parame</span>.<span class="typedCursor">|</span>
+      <div class="typewriter col-xs-4">Hello, I'm <span class="highlight">Rolando Parame</span>.<span class="typedCursor">|</span>
         </div>
-      <div class="text">I'm a front-end web developer.
+      <div class="subtitle">I'm a front-end web developer.
         </div>
-      <button class="page-link" dest="portfolio">View my work</button>
+      <a href="#portfolio"><button id="portfolioBtn">View my work</button></a>
     </div>
   </div>
 
+  <!-- Navbar -->
   <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-9">
-          <div class="link">
-            <a href="#">Home</a>
-          </div>
-          <div class="link">
-            <a href="#">About</a>
-          </div>
-          <div class="link">
-            <a href="#">Portfolio</a>
-          </div>
-          <div class="link">
-            <a href="#">Contact</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0F0F14">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="content">
-          <h1>Lorem Ipsum</h1>
-          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, porro.</h2>
-          <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil voluptatum debitis, autem facere dolor distinctio.</h3>
+    </nav>
+
+    <!-- About -->
+    <section class="content-section" id="about" style="background-color: #f5f5f5">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary">About</h3>
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam et quidem quos alias numquam exercitationem ex labore sed eum quibusdam illum iure, esse architecto voluptas laudantium quia fugit sapiente facilis modi reprehenderit hic ea! Magnam, blanditiis! Quisquam quasi, delectus corrupti ratione, itaque facilis reiciendis non est quidem eaque ullam id explicabo consectetur tenetur, aspernatur numquam eos maxime! Recusandae doloribus numquam magni tenetur veritatis quia! Reiciendis laboriosam veniam ut in ratione voluptas, deleniti iste voluptate laudantium eveniet quo facere officia eius aliquam, saepe neque, quidem totam accusantium molestias earum harum! In earum repellendus possimus, velit nihil quas quidem obcaecati quasi asperiores dolor repellat explicabo neque tenetur veniam, porro commodi eius rem iusto sed esse laboriosam saepe. Inventore ab veritatis itaque nesciunt enim deserunt voluptas cumque vitae reiciendis officiis sit delectus, ut neque sunt doloremque perspiciatis reprehenderit corrupti atque assumenda commodi fugit quasi voluptate accusantium. Sed repudiandae nesciunt et tempora! Ducimus.</p>
       </div>
     </div>
   </header>
 
-  <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h1>More Content</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem atque corrupti quas qui magni eius labore ipsum ad animi.</p>
-          </div>
-          <div class="col-md-4">
-            <h1>More Content</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem atque corrupti quas qui magni eius labore ipsum ad animi.</p>
-          </div>
-          <div class="col-md-4">
-            <h1>More Content</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem atque corrupti quas qui magni eius labore ipsum ad animi.</p>
-          </div>
+  <!-- Portfolio -->
+  <section class="content-section" id="portfolio" style="background-color: #f5f5f5">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary">Portfolio</h3>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Stationary</h2>
+                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Ice Cream</h2>
+                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Strawberries</h2>
+                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Workspace</h2>
+                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          </a>
         </div>
       </div>
-  </main>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="scrollspy">
+    <div class="container">
+        <h3 class="text-secondary text-center">Contact</h3>
+        <div class="row align-items-center">
+            <form class="col s12" method="post" action="/Home/SendEmail">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" name="email" type="email" />
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="message" name="message" class="materialize-textarea" maxlength="1000"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+                </div>
+                <div class="fixedLoader right">
+                    <button id="submitEmail" class="waves-effect waves-light btn" type="submit">
+                        Send
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KdzlLrQCV5NhPmNx0TR8L37rTLebNep2XSMbkdRdtFL8tAE3whlTwXQ-bpdglOLCTXgcVJ8lxD3VsPe_U8wSrE79vFnAfjBOMTUAGnD0LU_FkvItmQO2eQKJEFzrplLcSOlzOF8E-FqdqGpyE-CHAE" /></form>
+        </div>
+    </div>
+</section>
+
+<footer class="page-footer transparent">
+    <div class="footer-copyright transparent">
+        <div class="container text-center">
+            Rolando Parame <span class="highlight">©2020</span>
+        </div>
+    </div>
+</footer>
 
 
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/portfolio.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script>
-    particlesJS.load('particles-js', 'particles.json', function(){
-      console.log('particles.json loaded');
-    });
-  </script>
+  <script>particlesJS.load('particles-js', 'particles.json', function(){ console.log('particles.json loaded'); });</script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
 </body>
 </html>
