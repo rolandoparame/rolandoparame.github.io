@@ -51,6 +51,11 @@ h3 {
 	color: #007acc;
 }
 
+.text-right {
+	position: relative;
+	left: 80%;
+}
+
 .text-secondary {
 	border-bottom: 3px solid #0F0F14;
 }
