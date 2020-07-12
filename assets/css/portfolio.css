@@ -14,6 +14,7 @@ body {
 
 h3 {
 	text-transform: uppercase;
+	color: black;
 }
 
 #particles-js{
@@ -72,11 +73,15 @@ h3 {
 	border-bottom: 3px solid #0F0F14;
 	padding-top: 15px;
 	padding-bottom: 10px;
+	color: #0F0F14!important;
 }
 
 #portfolioBtn {
 	padding: 0px 10px 0px 10px;
 	margin: 26px 0px 0px 0px;
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	border-radius: 5px;
 	font-size: 1.2rem;
 	font-family: 'Roboto Mono', monospace;
 	background: rgba(0,0,0,0);
@@ -93,7 +98,7 @@ h3 {
 }
 
 #portfolioBtn:focus{
-	border: 0;
+	outline: none;
 }
 
 .typewriter {
@@ -157,7 +162,6 @@ h3 {
   padding: 12px;
   margin-bottom: 10px;
   width:100%;
-  justify-content: center;
   outline:0;
 }
 
