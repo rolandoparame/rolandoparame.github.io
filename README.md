@@ -1,7 +1,9 @@
 # Portfolio
 
-This is my portfolio. I've created this as a way to showcase my current skillset with programming.
+This repo will host and showcase my portfolio.
 
-I aim to improve my programming skills by project-based learning. This portfolio and repository will act as my main platform to show my ability.
+I've created this as a way to showcase my current skillset with programming.
 
-Thanks for visiting my portfolio!
+I aim to improve my programming skills through project-based learning. 
+
+Thanks for visiting this page!
