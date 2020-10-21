@@ -54,6 +54,20 @@ h3 {
 	position: relative;
 }
 
+.skills-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 30px auto;
+}
+
+.skill-type-container {
+	padding: 10px;
+	text-align: center;
+	min-width: 260px;
+}
+
 .subtitle {
 	font-size: 20px;
 }
