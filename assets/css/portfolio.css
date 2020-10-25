@@ -94,6 +94,35 @@ ul {
 	font-size: 1.23em;
 }
 
+.project-container {
+	position: relative;
+	margin: 30px auto;
+	max-width: 700px;
+	width: 100%;
+	border: none;
+}
+
+.project-desc {
+	padding: 10px;
+}
+
+.project-links {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.project-links a {
+	color: #222;
+	background: white;
+	padding: 10px;
+	margin: 10px 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .subtitle {
 	font-size: 20px;
 }
