@@ -8,7 +8,7 @@ body {
 	height: 100%;
 	overflow: auto;
 	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	color: #cccccc;
 	max-width: 100%;
 	font-size: 16px;
@@ -44,9 +44,9 @@ h3 {
 	-webkit-font-smoothing: antialiased;
 	font-size: 2rem;
 	letter-spacing: 2px;
-	font-family: 'Noto Sans JP', sans-serif;
 	padding-top: 45vh;
 	padding-bottom: 50vh;
+	font-family: 'Oswald', sans-serif;
 }
 
 .greeting-nopad {
@@ -57,7 +57,6 @@ h3 {
 	-webkit-font-smoothing: antialiased;
 	font-size: 2rem;
 	letter-spacing: 2px;
-	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .container {
@@ -115,12 +114,13 @@ ul {
 
 .project-links a {
 	color: #222;
-	background: white;
+	background: whitesmoke;
 	padding: 10px;
 	margin: 10px 5px;
 	border-radius: 5px;
 	text-decoration: none;
 	cursor: pointer;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .subtitle {
@@ -128,8 +128,10 @@ ul {
 }
 
 .highlight {
-	color: #007acc!important;
+	color: #326AAA!important;
 }
+
+/* 007acc */
 
 .content-section {
 	font-size: 1.23em;
@@ -157,7 +159,6 @@ ul {
 	padding-top: 15px;
 	padding-bottom: 10px;
 	letter-spacing: 2px;
-	font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
 }
 
@@ -208,59 +209,6 @@ a:hover {
 	animation: fadeIn .5s ease-in 1 forwards;
   }
 
-.nav-item {
-	font-size: 1rem;
-	text-transform: uppercase;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-}
-
-.page-footer {
-	color: #fff;
-}
-
-.feedback-input {
-  color:#333;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 16px;
-  border-radius: 5px;
-  line-height: 20px;
-  background-color: transparent;
-  border:2px solid #333;
-  transition: all 0.3s;
-  padding: 12px;
-  margin-bottom: 10px;
-  width:100%;
-  outline:0;
-}
-
-.feedback-input:focus {
-	border: 2px solid #007acc;
-}
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-  width: 100%;
-  background:#007acc;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-}
 
 @media screen and (max-width: 600px) {
 	.greeting {
