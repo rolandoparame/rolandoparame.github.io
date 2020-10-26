@@ -1,4 +1,14 @@
-html {
+#particles-js{
+	/* Background from https://cssgradient.io/ */
+	background: rgb(2,0,36);
+	background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(15,15,20,1) 40%, rgba(0,0,0,1) 100%);
+	height: 100vh;
+	opacity: 0;
+	position: fixed;
+    width:100%;
+	z-index:-1;
+	
+}html {
 	scroll-behavior: smooth;
 	overflow: hidden;
 	height: 100%;
@@ -8,7 +18,7 @@ body {
 	height: 100%;
 	overflow: auto;
 	margin: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #cccccc;
 	max-width: 100%;
 	font-size: 16px;
@@ -20,54 +30,21 @@ h3 {
 	text-transform: uppercase;
 }
 
-#particles-js{
-	/* Background from https://cssgradient.io/ */
-	background: rgb(2,0,36);
-	background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(15,15,20,1) 40%, rgba(0,0,0,1) 100%);
-	height: 100vh;
-	opacity: 0;
-	position: fixed;
-    width:100%;
-    z-index:-1;
-}
-
-.fadein {
-	height: 100%;
-	background-color: 
-}
-
 .greeting {
 	text-align: center;
 	color: #fff;
     width: 100%;
     height: 100%;
-	-webkit-font-smoothing: antialiased;
 	font-size: 2rem;
 	letter-spacing: 2px;
 	padding-top: 45vh;
-	padding-bottom: 50vh;
-	font-family: 'Oswald', sans-serif;
-}
-
-.greeting-nopad {
-	text-align: center;
-	color: #fff;
-    width: 100%;
-    height: 100%;
+	padding-bottom: 40vh;
 	-webkit-font-smoothing: antialiased;
-	font-size: 2rem;
-	letter-spacing: 2px;
 }
 
 .container {
 	padding: 10%;
 }
-
-.contact-container {
-	height: 350px;
-	position: relative;
-}
-
 
 .skill-container {
 	display: flex;
@@ -123,36 +100,18 @@ ul {
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
-.subtitle {
-	font-size: 20px;
+.contact-container {
+	height: 350px;
+	position: relative;
 }
 
 .highlight {
 	color: #326AAA!important;
 }
 
-/* 007acc */
-
 .content-section {
 	font-size: 1.23em;
 	text-align: center;
-}
-
-.text-align-left {
-	flex-direction: column;
-	display: flex;
-	justify-content: space-between;
-}
-
-.text-align-right {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.text-right {
-	position: relative;
-	justify-content: right;
 }
 
 .text-secondary {
@@ -168,6 +127,15 @@ ul {
 	white-space: nowrap;
 	opacity: 1;
 	animation: typing 4s steps(40, end);
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn .5s ease-in 1 forwards;
+  }
+
+a:hover {
+	text-decoration: none;
 }
 
 .typewriter {
@@ -200,29 +168,24 @@ ul {
 	}
 }
 
-a:hover {
-	text-decoration: none;
-}
-
-.fade-in {
-	opacity: 0;
-	animation: fadeIn .5s ease-in 1 forwards;
-  }
-
-
 @media screen and (max-width: 600px) {
 	.greeting {
 	  font-size: 16pt;
 	}  
 
-	#portfolioBtn {
-		padding: 10px 5px 10px 5px;
-		margin: 10px 0px 0px 0px;
-		font-size: 12pt;
-		line-height: 14pt;
+	.skill-container {
+		max-width: 300px;
+	}
+	
+	.skills-type-container {
+		max-width: 300px;
 	}
 
-	.skills-type-container {
+	.project-container {
 		width: 100%;
+	}
+	
+	img {
+		max-width: 300px;
 	}
 }
